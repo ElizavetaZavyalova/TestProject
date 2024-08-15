@@ -1,3 +1,0 @@
-users, ID, INT
-accounts, account_id, INT
-accounts, account, VARCHAR(32)
