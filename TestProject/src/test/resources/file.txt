@@ -1,0 +1,4 @@
+accounts, account_id, INT
+op, ID, INT
+accounts, account, VARCHAR(32)
+users, ID, INT
