@@ -25,7 +25,7 @@ public class FieldsInformation {
     public void validateType() throws IllegalArgumentException {
         for (FieldInformation field : information.values()) {
             if (!field.isFieldTypePresent()) {
-                throw new IllegalArgumentException("no type of " +
+                throw new IllegalArgumentException("no type of :" +
                         field.getTableName() + " " + field.getFieldName());
             }
         }

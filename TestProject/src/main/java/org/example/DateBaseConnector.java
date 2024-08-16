@@ -83,7 +83,7 @@ public class DateBaseConnector implements ReaderFromTables {
             throws IllegalArgumentException {
         log.debug("Validating {}", name);
         if (Optional.ofNullable(name).orElse("").isEmpty()) {
-            throw new IllegalArgumentException(columnType + " must not be empty");
+            throw new IllegalArgumentException(columnType + " is not a valid correct name");
         }
     }
 

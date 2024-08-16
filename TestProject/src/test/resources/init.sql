@@ -11,7 +11,6 @@ CREATE TABLE TABLE_COLS
 );
 INSERT INTO TABLE_LIST
 VALUES ('users', 'ID'),
-       ('op', 'ID'),
        ('accounts', 'account,account_id');
 
 
@@ -19,7 +18,6 @@ INSERT INTO TABLE_COLS
 VALUES ('users', 'first_name', 'VARCHAR(32)'),
        ('users', 'second_name', 'VARCHAR(32)'),
        ('users', 'id', 'INT'),
-       ('op', 'id','INT'),
        ('accounts', 'register_date', 'TIMESTAMP'),
        ('accounts', 'CARD_NUMBER', 'INT'),
        ('accounts', 'ACCOUNT', 'VARCHAR(32)'),

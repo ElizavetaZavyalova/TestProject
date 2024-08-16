@@ -1,9 +1,9 @@
 package org.example;
 
-import lombok.SneakyThrows;
+
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.Map;
+
 import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
